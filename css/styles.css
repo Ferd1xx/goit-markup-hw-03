@@ -46,6 +46,22 @@ footer {
   align-items: center;
 }
 
+.header-one {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.div-one {
+  display: flex;
+  width: 1158px;
+  margin: 0px;
+}
+
+.nav-one{
+  display: flex;
+  align-items: center;
+
+}
+
 .logo-one {
   font-weight: 700;
   font-size: 18px;
@@ -55,6 +71,7 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-two {
@@ -101,6 +118,7 @@ footer {
   font-family: "Roboto", sans-serif;
   width: 261px;
   height: 24px;
+  gap: 40px;
 }
 
 .logo-mail {
@@ -390,7 +408,9 @@ footer {
 }
 
 .address {
+   display: flex;
   font-style: normal;
+  gap: 40px;
 }
 
 .studio-two {
@@ -401,6 +421,7 @@ footer {
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
+  padding: 24px 0 24px;
 }
 
 .studio-two:hover {
