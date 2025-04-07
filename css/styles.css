@@ -58,10 +58,9 @@ footer {
   margin: 0px;
 }
 
-.nav-one{
+.nav-one {
   display: flex;
   align-items: center;
-
 }
 
 .logo-one {
@@ -192,8 +191,8 @@ footer {
   background-color: #404bbf;
 }
 
-.section-two{
-padding: 120px 0 120px;
+.section-two {
+  padding: 120px 0 120px;
 }
 
 .title-main-one {
@@ -202,14 +201,14 @@ padding: 120px 0 120px;
   align-items: center;
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
-   visibility: hidden;
+  visibility: hidden;
 }
 
 .ul-main-one {
   display: flex;
   justify-content: center;
   align-items: center;
- gap: 24px;
+  gap: 24px;
 }
 
 .ul-main-two {
@@ -263,7 +262,7 @@ padding: 120px 0 120px;
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
-width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
   height: 104px;
   margin-top: 120px;
   margin-right: 24px;
@@ -312,6 +311,7 @@ width: calc((100% - 72px) / 4);
   text-align: center;
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 72px;
 }
 
 .title-name {
@@ -331,7 +331,7 @@ width: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
   font-family: "Roboto", sans-serif;
   color: #f4f4fd;
-  width: 264px;
+  max-width: 264px;
   height: 72px;
   margin-top: 16px;
 }
@@ -362,7 +362,7 @@ width: calc((100% - 72px) / 4);
   width: 100%;
   background-color: #f4f4fd;
   height: 100%;
-  padding: 122px 148px 118px;
+  padding: 120px 0 120px;
 }
 .background-three {
   display: flex;
@@ -372,6 +372,7 @@ width: calc((100% - 72px) / 4);
   background: #2e2f42;
   width: 100%;
   height: 312px;
+  padding: 100px 0 100px;
 }
 
 .background-four {
@@ -388,6 +389,13 @@ width: calc((100% - 72px) / 4);
 }
 
 .section-main {
+  padding: 120px 0 120px;
+}
+.ul-three {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .section-title {
   display: flex;
@@ -400,6 +408,7 @@ width: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .sub-title {
   display: flex;
@@ -421,7 +430,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .address {
-   display: flex;
+  display: flex;
   font-style: normal;
   gap: 40px;
 }
