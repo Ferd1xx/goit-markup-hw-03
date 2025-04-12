@@ -52,13 +52,15 @@ footer {
   padding: 0 15px 0 15px;
 }
 
-
-
+.div-one {
+  display: flex;
+  width: 1158px;
+  margin: 0px;
+}
 .nav-one {
   display: flex;
   align-items: center;
 }
-
 .logo-one {
   font-weight: 700;
   font-size: 18px;
@@ -200,19 +202,6 @@ footer {
   visibility: hidden;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .ul-main-one {
   display: flex;
   justify-content: center;
@@ -229,17 +218,13 @@ footer {
   margin-top: 72px;
 }
 
-.div-three {
-  padding: 32px 0 32px;
-}
 .main-li-two {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: calc((100% - 72px) / 4);
+  width: 264px;
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
 }
 .title-main-three {
   display: flex;
@@ -327,15 +312,6 @@ footer {
   margin-bottom: 72px;
 }
 
-.div-two {
-  display: flex;  
-  width: 1158px;
-
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-
 .title-name {
   display: flex;
   justify-content: center;
@@ -364,9 +340,6 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
-  margin-bottom: 8px;
-  text-align: center;
 }
 
 .background-one {
@@ -389,6 +362,7 @@ footer {
   height: 100%;
   padding: 120px 0 120px;
 }
+
 .background-three {
   display: flex;
   justify-content: center;
