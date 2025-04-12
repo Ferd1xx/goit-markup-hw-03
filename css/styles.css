@@ -52,12 +52,7 @@ footer {
   padding: 0 15px 0 15px;
 }
 
-.container {
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px ;
-}
+
 
 .nav-one {
   display: flex;
@@ -333,8 +328,13 @@ footer {
 }
 
 .div-two {
-  padding: 32px 0 32px;
+  display: flex;  
+  width: 1158px;
+
+  padding: 0 15px;
+  margin: 0 auto;
 }
+
 
 .title-name {
   display: flex;
