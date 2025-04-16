@@ -52,11 +52,13 @@ footer {
   padding: 0 15px 0 15px;
 }
 
-.div-one {
+.div-one,.container {
   display: flex;
   width: 1158px;
   margin: 0px;
+   padding: 0 15px 0 15px;
 }
+
 .nav-one {
   display: flex;
   align-items: center;
@@ -73,6 +75,20 @@ footer {
   margin-right: 76px;
   margin-bottom: 16px;
   display: inline-block;
+}
+
+.logo-four{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #4d5ae5;
+  margin-right: 76px;
+  display: inline-block;
+
 }
 
 .logo-two {
@@ -98,16 +114,6 @@ footer {
   color: #f4f4fd;
 }
 
-.logo-four {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  color: #4d5ae5;
-}
 
 .menu-nav {
   display: flex;
@@ -195,7 +201,7 @@ footer {
   padding: 120px 0 120px;
 }
 
-.visually-hidden {
+.visuallyhidden {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,6 +215,8 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
+  margin:0 auto;
 }
 
 .ul-main-two {
@@ -218,6 +226,13 @@ footer {
   flex-direction: row;
   gap: 24px;
   margin-top: 72px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.div-five{
+ padding: 32px 0 32px;
+
+
 }
 
 .main-li-two {
@@ -262,7 +277,6 @@ footer {
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
-  width: calc((100% - 72px) / 4);
   height: 104px;
   margin-top: 120px;
   margin-right: 24px;
@@ -342,6 +356,33 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.ul-main-three{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+   flex-wrap: wrap;
+   column-gap: 24px; 
+   row-gap: 48px;
+}
+
+.portfolio-card-content{
+
+padding: 32px 16px;
+border: 1px solid #e7e9fc; 
+ border-top: none;
+ margin-bottom: 8px;
+}
+
+.li-main-three{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+width: calc((100% - 48px) / 3);
+
 }
 
 .background-one {
