@@ -199,7 +199,7 @@ footer {
   padding: 120px 0 120px;
 }
 
-.visuallyhidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -234,7 +234,7 @@ footer {
 }
 
 .main-li-two {
-  display: flex;
+display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -272,12 +272,9 @@ footer {
 }
 .main-li {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   gap: 8px;
-  height: 104px;
-  margin-top: 120px;
   margin-right: 24px;
   margin-bottom: 121px;
   margin-left: 144px;
