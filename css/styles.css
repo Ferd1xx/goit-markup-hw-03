@@ -212,7 +212,6 @@ footer {
 }
 
 .ul-main-one {
-  display: flex;
   gap: 24px;
   margin: 0 auto;
 }
