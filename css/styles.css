@@ -214,6 +214,7 @@ footer {
 .ul-main-one {
   gap: 24px;
   margin: 0 auto;
+  width: calc((100% - 72px) / 4);
 }
 
 .ul-main-two {
