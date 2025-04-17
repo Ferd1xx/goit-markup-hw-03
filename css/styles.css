@@ -213,8 +213,6 @@ footer {
 
 .ul-main-one {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 24px;
   margin: 0 auto;
 }
@@ -233,10 +231,6 @@ footer {
 }
 
 .main-li-two {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
