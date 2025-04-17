@@ -263,9 +263,6 @@ footer {
   color: #434455;
 }
 .main-li {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   gap: 8px;
   margin-right: 24px;
   margin-bottom: 121px;
@@ -275,6 +272,7 @@ footer {
 
 .title-main-h {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-weight: 500;
   font-size: 20px;
@@ -289,10 +287,6 @@ footer {
 }
 
 .text-main-one {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
