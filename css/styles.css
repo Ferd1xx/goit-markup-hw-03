@@ -263,10 +263,6 @@ footer {
   color: #434455;
 }
 .main-li {
-  gap: 8px;
-  margin-right: 24px;
-  margin-bottom: 121px;
-  margin-left: 144px;
   width: calc((100% - 72px) / 4);
 }
 
